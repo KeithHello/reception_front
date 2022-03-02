@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "id": 1,
+            "title": "車両開発会議",
+            "reservationNumber": "5123",
+            "aimOfMeeting": "NEW_ORDERS",
+            "personInCharge": 2,
+            "name": "斎藤,佐伯,埼玉",
+            "meetingRoom": 1,
+            "reservationDateStart": "2022-02-02 10:30:00",
+            "reservationDateEnd": "2022-02-02 11:30:00",
+            "note": ""
+        },
+        {
+            "id": 2,
+            "title": "セキュリティ定例会",
+            "reservationNumber": "9614",
+            "aimOfMeeting": "ROUTINE_MEETING",
+            "personInCharge": 3,
+            "name": "粕尾,鳴門",
+            "meetingRoom": 2,
+            "reservationDateStart": "2022-02-11 14:30:00",
+            "reservationDateEnd": "2022-02-11 15:30:00",
+            "note": ""
+        },
+        {
+            "id": 3,
+            "title": "人事会議",
+            "reservationNumber": "5123",
+            "aimOfMeeting": "INTERNAL_MEETING",
+            "personInCharge": 3,
+            "name": "斎藤,佐伯,埼玉",
+            "meetingRoom": 3,
+            "reservationDateStart": "2022-02-13 15:00:00",
+            "reservationDateEnd": "2022-02-13 16:30:00",
+            "note": "重要事項あり"
+        }
+    ]
+}
