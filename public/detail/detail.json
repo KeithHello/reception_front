@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "id": 1,
+    "title": "車両開発会議",
+    "reservationNumber": "5123",
+    "aimOfMeeting": "NEW_ORDERS",
+    "personInCharge": 2,
+    "name": "斎藤,佐伯,埼玉",
+    "meetingRoom": 1,
+    "reservationDateStart": "2022-02-02 10:30:00",
+    "reservationDateEnd": "2022-02-02 11:30:00",
+    "note": ""
+  }
+}

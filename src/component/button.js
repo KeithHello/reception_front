@@ -1,5 +1,12 @@
 import { Button } from 'antd';
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+export const DetailBtn = (param) => {
+    return (
+        <Button><Link to={"/detail/" + param.id}>詳細</Link></Button>
+    )
+}
 
 export const DeleteBtn = (param) => {
     return (

@@ -1,6 +1,6 @@
-import { Button, Space } from 'antd';
+import { Space } from 'antd';
 import { Link, Redirect } from 'react-router-dom';
-import { DeleteBtn, deleteBtn } from '../component/button';
+import { DeleteBtn, DetailBtn } from '../component/button';
 
 export const headline = [
     {
@@ -42,10 +42,10 @@ export const headline = [
     {
       title: 'Action',
       key: 'action',
-      render: (text, record) => (
+      render: (text, param) => (
         <Space size="middle">
-          <Button><Link to={"/detail/" + record.id}>詳細</Link></Button>
-          <DeleteBtn id={record.id} />
+          <DetailBtn id={param.id} />
+          <DeleteBtn id={param.id} />
         </Space>
       ),
     }
