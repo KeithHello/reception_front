@@ -41,6 +41,14 @@
                 font-size: 20px;
                 text-align: center;
             }
+
+            .form {
+                margin: 0 auto;
+                width: 80%;
+                .item {
+                    padding-top: 10px;
+                }
+            }
         }
     }
 }
